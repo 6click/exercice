@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+}
+.leftheader{
+    margin-right:1rem;
+}
+.rightheader{
+    text-align: left;
+    margin: auto 0;
+}
+.rightheader h1{
+    color:#DA0090;
+    font-size: 2.5rem;
+}
+nav{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 5px 0;
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #A51F10;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: nowrap;
+    margin: 0 15rem;
+    justify-content:space-around;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 0.5rem;
+}
+nav a{
+    color: black;
+    font-size: 1rem;
+}
+nav a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 0;
+    border-bottom: 1px solid #DA0090;
+}
+article img{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    clear: both;
+}
+/*article:after{
+    content:"";
+    display: table;
+    clear: both;
+}*/
+footer{
+    border-top: 1px solid #A51F10;
+    padding: 0;
+    margin: 10px 0;
+}
+footer p {
+    justify-content: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+footer ul{
+    margin: 0;
+    padding: 15px 0;
+}
+footer li{
+    margin: 0;
+    padding: 0;
+    flex-flow: nowrap;
+    display: inline-flex;
+    list-style-type: none;
+}
